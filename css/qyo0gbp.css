@@ -1,0 +1,66 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * itc-avant-garde-gothic-pro:
+ *   - http://typekit.com/eulas/00000000000000007735ba14
+ * museo-sans:
+ *   - http://typekit.com/eulas/00000000000000000000e800
+ *   - http://typekit.com/eulas/00000000000000000000e801
+ *   - http://typekit.com/eulas/00000000000000000000e7fe
+ *   - http://typekit.com/eulas/00000000000000000000e802
+ *   - http://typekit.com/eulas/00000000000000000000e805
+ *   - http://typekit.com/eulas/00000000000000000000e806
+ *
+ * © 2009-2022 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2022-01-03 18:14:02 UTC"}*/
+
+@import url("p.css");
+
+@font-face {
+font-family:"museo-sans";
+src:url("../l_3") format("woff2"),url("../d_3") format("woff"),url("../a_4") format("opentype");
+font-display:auto;font-style:normal;font-weight:100;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("../l") format("woff2"),url("../d_5") format("woff"),url("../a_6") format("opentype");
+font-display:auto;font-style:italic;font-weight:100;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("../l_4") format("woff2"),url("../d") format("woff"),url("../a_3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("../l_6") format("woff2"),url("../d_2") format("woff"),url("../a_1") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("../l_2") format("woff2"),url("../d_1") format("woff"),url("../a_2") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("../l_1") format("woff2"),url("../d_4") format("woff"),url("../a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"itc-avant-garde-gothic-pro";
+src:url("../l_5") format("woff2"),url("../d_6") format("woff"),url("../a_5") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+.tk-museo-sans { font-family: "museo-sans",sans-serif; }
+.tk-itc-avant-garde-gothic-pro { font-family: "itc-avant-garde-gothic-pro",sans-serif; }

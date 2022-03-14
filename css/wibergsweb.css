@@ -1,0 +1,46 @@
+form.sc_attributes {
+    display:none;
+}
+
+table.csvtohtml tr.trhide, table.csvtohtml.responsive-csvtohtml tr.trhide { 
+    display: none !important;
+}
+
+table.csvtohtml.responsive-csvtohtml { 
+    width: 100% !important;
+    border-collapse: collapse !important;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+	table.csvtohtml.responsive-csvtohtml, 
+    table.csvtohtml.responsive-csvtohtml thead, 
+    table.csvtohtml.responsive-csvtohtml tbody, 
+    table.csvtohtml.responsive-csvtohtml th, 
+    table.csvtohtml.responsive-csvtohtml td, 
+    table.csvtohtml.responsive-csvtohtml tr { 
+		display: block !important 
+	}
+	
+	table.csvtohtml.responsive-csvtohtml thead tr { 
+		position: absolute !important;
+		top: -9999px !important;
+		left: -9999px !important;
+	}
+	
+	table.csvtohtml.responsive-csvtohtml td { 
+	    position: relative !important;
+		padding-left: 50% !important; 
+	}
+	
+	table.csvtohtml.responsive-csvtohtml td:before { 
+		position: absolute;
+		top: 0 !important;
+		left: 0 !important;
+		width: 45% !important; 
+		white-space: nowrap !important;
+	}
+	
+
+}

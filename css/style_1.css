@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot');
+  src:  url('../fonts/icomoon.eot#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="brandicons-"], [class*=" brandicons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.brandicons-Valkyrie-Icon:before {
+  content: "\e90c";
+}
+.brandicons-Valkyrie-Logo-Icon-V:before {
+  content: "\e90d";
+}
+.brandicons-Valkyrie-Trust-Icons-Algorand-only .path1:before {
+  content: "\e900";
+  color: rgb(0, 0, 0);
+}
+.brandicons-Valkyrie-Trust-Icons-Algorand-only .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(233, 94, 65);
+}
+.brandicons-Valkyrie-Trust-Icons-Bitcoin-only .path1:before {
+  content: "\e902";
+  color: rgb(16, 16, 16);
+}
+.brandicons-Valkyrie-Trust-Icons-Bitcoin-only .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(247, 147, 26);
+}
+.brandicons-Valkyrie-Trust-Icons-Dash-only .path1:before {
+  content: "\e904";
+  color: rgb(16, 16, 16);
+}
+.brandicons-Valkyrie-Trust-Icons-Dash-only .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(0, 141, 228);
+}
+.brandicons-Valkyrie-Trust-Icons-Dash-only .path3:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 141, 228);
+}
+.brandicons-Valkyrie-Trust-Icons-Polkadot-only .path1:before {
+  content: "\e907";
+  color: rgb(16, 16, 16);
+}
+.brandicons-Valkyrie-Trust-Icons-Polkadot-only .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(16, 16, 16);
+}
+.brandicons-Valkyrie-Trust-Icons-Polkadot-only .path3:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(230, 0, 122);
+}
+.brandicons-Valkyrie-Trust-Icons-Tron-only .path1:before {
+  content: "\e90a";
+  color: rgb(0, 0, 0);
+}
+.brandicons-Valkyrie-Trust-Icons-Tron-only .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 6, 10);
+}
